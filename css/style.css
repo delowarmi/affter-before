@@ -1,0 +1,61 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+.banner{
+        background: url(../Image/pexels-souvenirpixels-414612.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px 0;
+        position: relative
+        
+}
+.aff{
+      
+        
+        position: relative;
+        text-align: center;
+}
+.aff h1{
+        position: absolute;
+        color:white;
+        display: inline-block;
+        
+}
+.aff h1::after{
+        position: absolute;
+        height: 100px;
+        width: 5px;
+        background:red;
+        content: "";
+        top: 35px;
+        left: 50%;
+}
+.aff h1::before{
+        position: absolute;
+        height: 100px;
+        width: 5px;
+        background:red;
+        content: "";
+        top: -95px;
+        left: 50%;
+}
+span::after{
+        position: absolute;
+        height: 5px;
+        width: 100px;
+        background:red;
+        content: "";
+        top:50%;
+        left: 220px; 
+}
+span::before{
+        position: absolute;
+        height: 5px;
+        width: 100px;
+        background:red;
+        content: "";
+        top:50%;
+        left: -110px; 
+}
